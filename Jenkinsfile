@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("jenkinsdevops/hellonode")
+        app = docker.build("anothermarkus/nodejshelloworld")
     }
 
     stage('Test image') {
